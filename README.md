@@ -71,9 +71,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Run
+## Getting Started
+
+### Installation
+```bash
 npm install
+```
+
+### Running the Application
+```bash
 npm start
+```
+
+The application will open at [http://localhost:3000](http://localhost:3000)
 
 ## Notes
 - Frontend only (recruitment solution UI)
