@@ -2,12 +2,19 @@ import { injectGlobal } from "@emotion/css";
 
 export default function createGlobalStyle() {
   injectGlobal`
+    * {
+      box-sizing: border-box;
+    }
+    
     body {
       margin: 0; 
       line-height: normal;
       font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-:root {
+    
+    :root {
 
 /* fonts */
 --font-lexend: Lexend;
