@@ -29,16 +29,16 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Recruitment Solution - Home";
+        metaDescription = "Modern recruitment and hiring management platform";
         break;
       case "/signup":
-        title = "";
-        metaDescription = "";
+        title = "Sign Up - Recruitment Solution";
+        metaDescription = "Create your account to get started";
         break;
       case "/login":
-        title = "";
-        metaDescription = "";
+        title = "Login - Recruitment Solution";
+        metaDescription = "Sign in to your account";
         break;
     }
 
