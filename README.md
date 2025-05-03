@@ -85,8 +85,23 @@ npm start
 
 The application will open at [http://localhost:3000](http://localhost:3000)
 
+## Features
+
+- **Modern UI/UX**: Built with React and Chakra UI for a responsive, accessible design
+- **Authentication**: User login and signup pages
+- **Search Functionality**: Advanced search components for candidate and job matching
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+
+## Tech Stack
+
+- React 18.2.0
+- React Router DOM 6.2.1
+- Chakra UI 2.2.6
+- Material-UI 5.13.4
+- Framer Motion 7.1.0
+
 ## Notes
+
 - Frontend only (recruitment solution UI)
-- Built with React and Chakra UI for modern, responsive design
-- Includes authentication pages (login/signup) and search functionality
+- Ready for backend integration via API endpoints
 
