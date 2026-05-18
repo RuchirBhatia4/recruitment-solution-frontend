@@ -1,6 +1,7 @@
 {
   "name": "recruitment_solution_frontend",
   "version": "0.1.0",
+  "homepage": "https://ruchirbhatia4.github.io/recruitment-solution-frontend",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",

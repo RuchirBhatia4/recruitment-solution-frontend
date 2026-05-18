@@ -42,7 +42,7 @@ const root = createRoot(container);
 createGlobalStyle();
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={muiTheme}>
         <CacheProvider value={emotionCache}>
